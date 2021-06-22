@@ -25,7 +25,7 @@ Steps
 * "com.turkishairlines.mobile:id/frDashboard_btnDone" id li butona tıklanır
 * "//*[@text=\"5\"]" xpath li yetişkin seç
 * "com.turkishairlines.mobile:id/frDashboard_btnSearch" id li uçuş arama butonuna tıkla
-* "com.turkishairlines.mobile:id/frFlightSearch_rvFlight" id li elementle "//*[@resource-id=\"com.turkishairlines.mobile:id/frFlightSearch_rvFlight\"]\n\n\n\n\n\n" xpath li elemtleri  karşılaştır
+* "com.turkishairlines.mobile:id/frFlightSearch_rvFlight" id li elementleri kontrol et
 * uçuş bilgileri listesini aç
 * ekonomi sınıfı uçuşu seç
 * "com.turkishairlines.mobile:id/frFlightSearch_btnContinue" id li devam butonuna tıkla ve devam et

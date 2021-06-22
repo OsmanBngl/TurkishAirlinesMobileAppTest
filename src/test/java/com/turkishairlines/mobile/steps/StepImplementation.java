@@ -118,10 +118,10 @@ public class StepImplementation extends BaseTest {
         Thread.sleep(1000);
     }
 
-    @Step("<key> id li elementle <value> xpath li elemtleri  karşılaştır")
-    public void aircraftListControl(String key,String xpath) throws InterruptedException {
+    @Step("<key> id li elementleri kontrol et")
+    public void aircraftListControl(String key) throws InterruptedException {
         Thread.sleep(1000);
-        Assert.assertNotNull( appiumDriver.findElement(By.xpath(xpath)));
+        Assert.assertNotNull( appiumDriver.findElement(By.id(key)));
         Thread.sleep(1000);
     }
 
